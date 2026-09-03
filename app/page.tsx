@@ -64,7 +64,6 @@ export default function Home() {
       <footer className="bg-stone-950 text-stone-400 py-12 px-6 border-t border-stone-800">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
           
-          {/* Coluna 1 */}
           <div>
             <h4 className="text-white text-lg font-bold font-serif mb-4">Fábrica de Doces</h4>
             <p className="text-sm leading-relaxed mb-4">
@@ -72,7 +71,6 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Coluna 2 */}
           <div>
             <h4 className="text-white text-lg font-bold font-serif mb-4">Nossa Fábrica</h4>
             <p className="text-sm leading-relaxed">
@@ -82,7 +80,6 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Coluna 3 */}
           <div>
             <h4 className="text-white text-lg font-bold font-serif mb-4">Atendimento</h4>
             <p className="text-sm leading-relaxed">
@@ -112,7 +109,5 @@ export default function Home() {
       </footer>
 
     </main>
-  )
-}
   )
 }
