@@ -47,19 +47,6 @@ export default function Home() {
       {/* Seção de Contato Completa (Telefones, WhatsApp e Mapa) */}
       <Contato />
 
-      {/* Botão Flutuante do WhatsApp */}
-      <a 
-        href="https://wa.me/5535997824591" 
-        target="_blank" 
-        rel="noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 hover:scale-110 transition-all z-50 flex items-center justify-center animate-bounce border-2 border-white"
-        title="Fale conosco pelo WhatsApp"
-      >
-        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12.031 0C5.383 0 0 5.383 0 12.031c0 2.124.553 4.195 1.603 6.012L.265 24l6.108-1.599A11.964 11.964 0 0012.031 24c6.647 0 12.031-5.383 12.031-12.031S18.678 0 12.031 0zm3.847 17.15c-.198.558-1.15.118-1.6.019-1.393-.312-2.738-1.026-3.83-2.038-1.168-1.077-1.956-2.483-2.316-3.953-.13-.53-.178-1.085-.02-1.608.14-.462.595-.764 1.05-.85.253-.047.514-.022.753.076.28.114.484.354.582.639.199.585.399 1.171.59 1.761.127.391.01.815-.276 1.107-.152.155-.328.29-.508.419-.074.053-.102.152-.055.228.468.756 1.096 1.39 1.83 1.875.08.056.185.04.246-.037.15-.19.317-.365.49-.533.245-.239.638-.3.945-.145.617.311 1.235.621 1.849.94.276.144.502.4.551.705.045.281.013.571-.082.836z" />
-        </svg>
-      </a>
-
       {/* Rodapé / Copyright Definitivo */}
       <footer className="bg-stone-950 text-stone-400 py-12 px-6 border-t border-stone-800">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
@@ -85,7 +72,7 @@ export default function Home() {
             <p className="text-sm leading-relaxed">
               Segunda a Sexta: 07:00 às 16:00<br />
               Vendas B2B e Lojistas<br />
-              (35) 99782-4591
+              (35) 99702-4591
             </p>
           </div>
         </div>
