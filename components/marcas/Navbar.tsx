@@ -10,12 +10,12 @@ export default function Navbar() {
   }
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-sm w-full overflow-hidden">
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-sm w-full">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* Logo / Título */}
         <a href="#" className="flex items-center gap-2">
-          <span className="font-serif font-bold text-xl md:text-2xl text-stone-900 tracking-wide">
+          <span className="font-serif font-bold text-lg md:text-2xl text-stone-900 tracking-wide">
             Fábrica Sobremesa Mineira
           </span>
         </a>
@@ -37,7 +37,7 @@ export default function Navbar() {
         {/* Botão Hambúrguer (Mobile) */}
         <button 
           onClick={() => setMenuAberto(!menuAberto)}
-          className="md:hidden text-stone-800 focus:outline-none p-2 rounded-lg hover:bg-stone-100 transition-colors"
+          className="md:hidden text-stone-800 focus:outline-none p-2 rounded-lg hover:bg-stone-100 transition-colors relative z-50"
           aria-label="Abrir menu"
         >
           <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,41 +51,41 @@ export default function Navbar() {
 
       </div>
 
-      {/* Menu Dropdown Mobile (Aparece ao clicar no celular) */}
+      {/* Menu Dropdown Mobile em Tela Cheia (Fixo e sem bugs de transição) */}
       {menuAberto && (
-        <div className="md:hidden absolute top-20 left-0 w-full bg-white border-b border-stone-200 shadow-xl py-6 px-6 flex flex-col gap-4 text-stone-800 font-medium animate-fadeIn">
+        <div className="md:hidden fixed inset-x-0 top-20 bg-white border-b border-stone-200 shadow-2xl py-8 px-6 flex flex-col gap-6 text-stone-800 font-medium z-40">
           <a 
             href="#sobremesa-mineira" 
             onClick={fecharMenu}
-            className="py-2 border-b border-stone-100 hover:text-amber-700"
+            className="text-lg py-2 border-b border-stone-100 hover:text-amber-700"
           >
             Sobremesa Mineira
           </a>
           <a 
-            href="#doce-nobre" 
-            onClick={fecharMenu}
-            className="py-2 border-b border-stone-100 hover:text-amber-700"
-          >
-            Doce Nobre
-          </a>
-          <a 
             href="#rei-do-doce" 
             onClick={fecharMenu}
-            className="py-2 border-b border-stone-100 hover:text-amber-700"
+            className="text-lg py-2 border-b border-stone-100 hover:text-amber-700"
           >
             Rei do Doce
           </a>
           <a 
+            href="#doce-nobre" 
+            onClick={fecharMenu}
+            className="text-lg py-2 border-b border-stone-100 hover:text-amber-700"
+          >
+            Doce Nobre
+          </a>
+          <a 
             href="#videos" 
             onClick={fecharMenu}
-            className="py-2 border-b border-stone-100 hover:text-amber-700"
+            className="text-lg py-2 border-b border-stone-100 hover:text-amber-700"
           >
             Vídeos
           </a>
           <a 
             href="#contato" 
             onClick={fecharMenu}
-            className="bg-amber-700 text-white text-center py-3 rounded-xl font-bold shadow-md mt-2"
+            className="bg-amber-700 text-white text-center py-3.5 rounded-xl font-bold shadow-md text-lg mt-2"
           >
             Contato Comercial
           </a>

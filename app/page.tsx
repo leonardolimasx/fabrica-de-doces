@@ -7,7 +7,7 @@ import Contato from '@/components/marcas/Contato'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-stone-50 text-stone-800 relative">
+    <main className="min-h-screen bg-stone-50 text-stone-800 relative overflow-x-hidden">
       
       {/* Menu de Navegação / Abas */}
       <Navbar />
@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* Botão Flutuante do WhatsApp */}
       <a 
-        href="https://wa.me/5535997024591" 
+        href="https://wa.me/5535997824591" 
         target="_blank" 
         rel="noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 hover:scale-110 transition-all z-50 flex items-center justify-center animate-bounce border-2 border-white"
@@ -85,7 +85,7 @@ export default function Home() {
             <p className="text-sm leading-relaxed">
               Segunda a Sexta: 07:00 às 16:00<br />
               Vendas B2B e Lojistas<br />
-              (35) 99702-4591
+              (35) 99782-4591
             </p>
           </div>
         </div>
