@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* Botão Flutuante do WhatsApp */}
       <a 
-        href="https://wa.me/5535997824591" 
+        href="https://wa.me/5535997024591" 
         target="_blank" 
         rel="noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 hover:scale-110 transition-all z-50 flex items-center justify-center animate-bounce border-2 border-white"
@@ -97,13 +97,22 @@ export default function Home() {
           <p className="text-xs">
             © {new Date().getFullYear()} Grupo Fábrica de Doces. Todos os direitos reservados.
           </p>
-          <div className="flex gap-4">
-            <span className="text-xs hover:text-white cursor-pointer transition-colors">Instagram</span>
+          <div className="flex gap-6 items-center">
+            <a 
+              href="https://www.instagram.com/sobremesamineiraoficial?utm_source=qr" 
+              target="_blank" 
+              rel="noreferrer"
+              className="text-xs hover:text-white transition-colors flex items-center gap-1.5 font-semibold text-amber-500"
+            >
+              Instagram Oficial
+            </a>
             <span className="text-xs hover:text-white cursor-pointer transition-colors">Facebook</span>
           </div>
         </div>
       </footer>
 
     </main>
+  )
+}
   )
 }

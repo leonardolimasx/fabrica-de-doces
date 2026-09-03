@@ -28,10 +28,10 @@ export default function Contato() {
               <div>
                 <p className="text-stone-400 text-sm uppercase tracking-wider mb-1">Consultor de Vendas</p>
                 <h4 className="text-2xl font-bold text-white mb-1">Samuel</h4>
-                <p className="text-amber-400 text-lg">(35) 99782-4591</p>
+                <p className="text-amber-400 text-lg">(35) 99702-4591</p>
               </div>
               <a 
-                href="https://wa.me/5535997824591?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20doces!" 
+                href="https://wa.me/5535997024591?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20doces!" 
                 target="_blank" 
                 rel="noreferrer"
                 className="bg-green-600 hover:bg-green-500 text-white px-5 py-2.5 rounded-full font-bold shadow-lg shadow-green-900/50 transition-transform hover:scale-105 flex items-center gap-2"
