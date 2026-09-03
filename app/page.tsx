@@ -21,7 +21,7 @@ export default function Home() {
       >
         <div className="max-w-4xl mx-auto space-y-6 relative z-10">
           <span className="bg-amber-700 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest inline-block shadow-sm">
-            Grupo Fábrica de Doces
+            Fabrica Sobremesa Mineira
           </span>
           <h1 className="text-4xl md:text-6xl font-bold font-serif tracking-wide text-stone-900">
             A Tradição do Doce Mineiro
