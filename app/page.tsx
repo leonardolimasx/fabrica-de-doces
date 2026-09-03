@@ -85,7 +85,7 @@ export default function Home() {
             <p className="text-sm leading-relaxed">
               Segunda a Sexta: 07:00 às 16:00<br />
               Vendas B2B e Lojistas<br />
-              (35) 99782-4591
+              (35) 99702-4591
             </p>
           </div>
         </div>
