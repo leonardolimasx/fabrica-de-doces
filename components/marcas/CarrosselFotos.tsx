@@ -14,9 +14,10 @@ interface CarrosselProps {
   tituloSecao: string
   produtos: Produto[]
   corTag?: string
+  corTexto?: string
 }
 
-export default function CarrosselProdutos({ tituloSecao, produtos, corTag = "bg-red-700" }: CarrosselProps) {
+export default function CarrosselProdutos({ tituloSecao, produtos, corTag = "bg-red-700", corTexto = "text-stone-900" }: CarrosselProps) {
   const carrosselRef = useRef<HTMLDivElement>(null)
 
   const rolar = (direcao: 'esquerda' | 'direita') => {
@@ -33,7 +34,7 @@ export default function CarrosselProdutos({ tituloSecao, produtos, corTag = "bg-
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center px-2">
-        <h3 className="text-2xl md:text-3xl font-bold font-serif text-stone-900 border-l-4 border-red-600 pl-3">
+        <h3 className={`text-2xl md:text-3xl font-bold font-serif ${corTexto} border-l-4 border-red-600 pl-3`}>
           {tituloSecao}
         </h3>
         <div className="flex gap-2">
@@ -71,7 +72,7 @@ export default function CarrosselProdutos({ tituloSecao, produtos, corTag = "bg-
                 </span>
               </div>
 
-              {/* Ajustado para object-contain para a foto aparecer inteira sem zoom gigante */}
+              {/* Ajustado com object-contain para a foto aparecer inteira sem zoom */}
               <div className="relative w-full h-56 mb-6 bg-stone-50 rounded-xl overflow-hidden shadow-inner flex items-center justify-center p-2">
                 <Image 
                   src={produto.imagem} 
