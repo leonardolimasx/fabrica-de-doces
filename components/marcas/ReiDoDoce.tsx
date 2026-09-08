@@ -4,7 +4,7 @@ export default function ReiDoDoce() {
   const produtosVidro450g = [
     { titulo: "Doce de Leite com Coco (450g)", descricao: "A cremosidade inconfundível do Rei do Doce com raspas selecionadas de coco fresco.", tag: "Vidro 450g", imagem: "/rei-coco.png" },
     { titulo: "Doce de Leite com Morango (450g)", descricao: "Morango: O equilíbrio perfeito entre o doce de leite tradicional e a geleia sabor morango.", tag: "Vidro 450g", imagem: "/rei-morango.png" },
-    { titulo: "Doce de Leite com Kiwi (450g)", descricao: "Kiwi: Uma combinação exótica e refrescante que une o doce de leite com a geleia sabor kiwi.", tag: "Vidro 450g", imagem: "/rei-kiwi.png" },
+    { titulo: "Doce de Leite com limao (450g)", descricao: "limao: Uma combinação exótica e refrescante que une o doce de leite com a geleia sabor limao.", tag: "Vidro 450g", imagem: "/rei-kiwi.png" },
     { titulo: "Doce de Leite Puro (450g)", descricao: "O autêntico e nobre doce de leite em formato ideal para saborear a qualquer momento.", tag: "Vidro 450g", imagem: "/rei-puro.png" },
     { titulo: "Doce de Leite com Maracujá (450g)", descricao: "Maracujá: Contraste delicioso entre o doce de leite e a geleia sabor maracujá.", tag: "Vidro 450g", imagem: "/rei-maracuja.png" },
     { titulo: "Doce de Leite com Ameixa (450g)", descricao: "Ameixa: Receita tradicional enriquecida com o sabor marcante da geleia sabor ameixa.", tag: "Vidro 450g", imagem: "/rei-ameixa.png" },
