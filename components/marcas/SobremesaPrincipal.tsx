@@ -48,7 +48,7 @@ export default function SobremesaPrincipal() {
     { titulo: "Festa Recheada", descricao: "Deliciosas bolachas recheadas, perfeitas para momentos especiais.", tag: "Bolacha", imagem: "/Festa Recheada.png" },
     { titulo: "Rosca Leite Condensado", descricao: "Rosquinha crocante com o toque adocicado do leite condensado.", tag: "Bolacha", imagem: "/Rosca Leite Condensado.png" },
     { titulo: "Florzinha Recheada", descricao: "Biscoito em formato de flor com recheio cremoso irresistível.", tag: "Bolacha", imagem: "/Florzinha Recheada.png" },
-    { titulo: "Bambolê Recheada", descricao: "Biscoito recheado crocante e saboroso para toda a família.", tag: "Bolacha", imagem: "/Bambolê Recheada.png" },
+    { titulo: "Bambolê Recheada", descricao: "Biscoito recheado crocante e saboroso para toda a família.", tag: "Bolacha", imagem: "/Bambole Recheada.png" },
     { titulo: "Rosca Leite Ninho", descricao: "Rosquinha artesanal com sabor inconfundível de Leite Ninho.", tag: "Bolacha", imagem: "/Rosca Leite Ninho.png" },
     { titulo: "Rosca Flocos", descricao: "Rosca crocante com toque especial de flocos.", tag: "Bolacha", imagem: "/Rosca Flocos.png" },
     { titulo: "Rosca Nata", descricao: "A tradicional rosquinha com o sabor caseiro da nata fresca.", tag: "Bolacha", imagem: "/Rosca Nata.png" },
